@@ -17,7 +17,7 @@ The lab provides gateway redundancy for two VLANs while also implementing load b
 
 
 ## Network Topology 
-(Topology.png)
+Topology.png
 
 
 ## IP Addressing
