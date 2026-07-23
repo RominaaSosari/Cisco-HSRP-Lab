@@ -22,22 +22,22 @@ The lab provides gateway redundancy for two VLANs while also implementing load b
 ## IP Addressing
 MLS1:
 
-VLAN 10: 192.168.1.2/24
+VLAN 10: 192.168.10.2/24
 
-VLAN 20: 192.168.2.2/24
+VLAN 20: 192.168.20.2/24
 
 
 MLS2:
 
-VLAN 10: 192.168.1.3/24
+VLAN 10: 192.168.10.3/24
 
-VLAN 20: 192.168.2.3/24
+VLAN 20: 192.168.20.3/24
 
 
 ## Virtual Gateway
-VLAN 10: 192.168.1.1
+VLAN 10: 192.168.10.1
 
-VLAN 20: 192.168.2.1 
+VLAN 20: 192.168.20.1 
 
 
 ## HSRP Design
@@ -46,7 +46,7 @@ Active Gateway: MLS1
 
 Standby Gateway: MLS2
 
-Virtual IP: 192.168.1.1
+Virtual IP: 192.168.10.1
 
 
 ### VLAN 20
@@ -54,7 +54,7 @@ Active Gateway: MLS2
 
 Standby Gateway: MLS1 
 
-Virtual IP: 192.168.2.1
+Virtual IP: 192.168.20.1
 
 This design provides load balancing because each multilayer switch acts as the active gateway for one VLAN.
 
@@ -75,7 +75,6 @@ show ip interface brief
 
 show vlan brief
 
-show spanning-tree
 
 
 
@@ -87,4 +86,15 @@ The following scenarios were tested:
 - Gateway availability maintained
 - End devices continued using the Virtual IP
 - Successful failover without changing the default gateway
+
+
+## Technologies Used
+
+- Cisco Packet Tracer
+- Cisco Multilayer Switch
+- Cisco Catalyst 2960
+- HSRP Version 2
+- VLAN
+- Trunking
+
 
