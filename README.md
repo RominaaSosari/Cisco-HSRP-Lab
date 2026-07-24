@@ -135,6 +135,13 @@ The following scenarios were tested:
 ![after preempt](images/standby-brief-MLS2-after-preempt.png)
 
 
+### Connectivity Tests
+![Ping Gateway from PC](images/ping-gateway-from-PC.png)
+
+![Ping Gateway from Laptop](images/ping-gateway-from-laptop.png)
+
+![Inter-vlan Routing](images/inter-vlan-routing-before-failover.png)
+
 
 ## Technologies Used
 
