@@ -88,6 +88,16 @@ The following scenarios were tested:
 - End devices continued using the Virtual IP
 - Successful failover without changing the default gateway
 
+## Verification Results
+### Before Failover 
+![before failover](images/ping-laptop-to-pc-before-failover.png)
+
+### After Failover
+![after failover](images/standby-brief-MLS2-after-failover.png)
+
+### After Preempt
+![after preempt](images/standby-brief-MLS2-after-preempt.png)
+
 
 ## Technologies Used
 
