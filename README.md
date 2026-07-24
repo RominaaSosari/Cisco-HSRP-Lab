@@ -136,11 +136,25 @@ The following scenarios were tested:
 
 
 ### Connectivity Tests
+
+#### Ping Gateway from PC
+
 ![Ping Gateway from PC](images/ping-gateway-from-PC.png)
+
+
+#### Ping Gateway from Laptop
 
 ![Ping Gateway from Laptop](images/ping-gateway-from-laptop.png)
 
+
+#### Inter-Vlan Routing Before Failover
+
 ![Inter-vlan Routing](images/inter-vlan-routing-before-failover.png)
+
+
+#### Inter-Vlan Routing after Failover
+
+![Inter-vlan routing after failover](images/inter-vlan-routing-after-failover.png)
 
 
 ## Technologies Used
