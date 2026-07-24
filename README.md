@@ -90,7 +90,7 @@ The following scenarios were tested:
 
 ## Verification Results
 ### Before Failover 
-![before failover](images/ping-laptop-to-pc-before-failover.png)
+![before failover](images/standby-brief-MLS2.png)
 
 ### After Failover
 ![after failover](images/standby-brief-MLS2-after-failover.png)
