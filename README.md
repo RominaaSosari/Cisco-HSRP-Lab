@@ -69,20 +69,27 @@ This design provides load balancing because each multilayer switch acts as the a
 
 ## Verification 
 ### Vlan Configuration
+
 ![MLS1 VLAN](images/Vlan-brief-MLS1.png)
 
 ![MLS2 VLAN](images/Vlan-brief-MLS2.png)
 
 ### Trunk Interfaces
+
 ![MLS1 Trunk](images/trunk-interfaces-MLS1.png)
+
 ![MLS2 Trunk](images/trunk-interfaces-MLS2.png)
 
 ### Layer 3 Interfaces
+
 ![MLS1 IP Interface](images/ip-interface-brief-MLS1.png)
+
 ![MLS2 IP Interface](images/ip-interface-brief-MLS2.png)
 
 ### HSRP Status
+
 ![MLS1 HSRP](images/standby-MLS1.png)
+
 ![MLS2 HSRP](images/standby-MLS2.png)
 
 
