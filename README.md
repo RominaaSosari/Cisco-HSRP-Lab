@@ -70,13 +70,22 @@ This design provides load balancing because each multilayer switch acts as the a
 ## Verification 
 ### Vlan Configuration
 
+MLS1:
+
 ![MLS1 VLAN](images/Vlan-brief-MLS1.png)
+
+
+MLS2:
 
 ![MLS2 VLAN](images/Vlan-brief-MLS2.png)
 
 ### Trunk Interfaces
 
+MLS1:
+
 ![MLS1 Trunk](images/trunk-interfaces-MLS1.png)
+
+MLS2:
 
 ![MLS2 Trunk](images/trunk-interfaces-MLS2.png)
 
@@ -93,7 +102,13 @@ MLS2:
 
 ### HSRP Status
 
+
+MLS1:
+
 ![MLS1 HSRP](images/standby-MLS1.png)
+
+
+MLS2:
 
 ![MLS2 HSRP](images/standby-MLS2.png)
 
@@ -118,11 +133,6 @@ The following scenarios were tested:
 
 ### After Preempt
 ![after preempt](images/standby-brief-MLS2-after-preempt.png)
-
-
-### Connectivity Tests
-
-![Ping Gateway from PC](images/ping gateway from PC.png)
 
 
 
