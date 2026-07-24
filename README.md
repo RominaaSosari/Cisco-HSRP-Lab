@@ -67,14 +67,23 @@ This design provides load balancing because each multilayer switch acts as the a
 - Hold Timer = 3 seconds
 
 
-## Verification Commands
-show standby brief
+## Verification 
+### Vlan Configuration
+![MLS1 VLAN](images/Vlan-brief-MLS1.png)
 
-show standby
+![MLS2 VLAN](images/Vlan-brief-MLS2.png)
 
-show ip interface brief
+### Trunk Interfaces
+![MLS1 Trunk](images/trunk-interfaces-MLS1.png)
+![MLS2 Trunk](images/trunk-interfaces-MLS2.png)
 
-show vlan brief
+### Layer 3 Interfaces
+![MLS1 IP Interface](images/ip-interface-brief-MLS1.png)
+![MLS2 IP Interface](images/ip-interface-brief-MLS2.png)
+
+### HSRP Status
+![MLS1 HSRP](images/standby-MLS1.png)
+![MLS2 HSRP](images/standby-MLS2.png)
 
 
 
@@ -97,6 +106,12 @@ The following scenarios were tested:
 
 ### After Preempt
 ![after preempt](images/standby-brief-MLS2-after-preempt.png)
+
+
+### Connectivity Tests
+![Ping Gateway from PC](images/ping gateway from PC.png)
+![Ping Gateway from Laptop](images/ping gateway from laptop.png)
+![Inter-Vlan Routing](images/ping-laptop-to-pc-before-failover.png)
 
 
 ## Technologies Used
