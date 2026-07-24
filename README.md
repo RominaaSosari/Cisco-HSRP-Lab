@@ -82,7 +82,12 @@ This design provides load balancing because each multilayer switch acts as the a
 
 ### Layer 3 Interfaces
 
+MLS1:
+
 ![MLS1 IP Interface](images/ip-interface-brief-MLS1.png)
+
+
+MLS2:
 
 ![MLS2 IP Interface](images/ip-interface-brief-MLS2.png)
 
@@ -116,9 +121,9 @@ The following scenarios were tested:
 
 
 ### Connectivity Tests
+
 ![Ping Gateway from PC](images/ping gateway from PC.png)
-![Ping Gateway from Laptop](images/ping gateway from laptop.png)
-![Inter-Vlan Routing](images/ping-laptop-to-pc-before-failover.png)
+
 
 
 ## Technologies Used
